@@ -16,15 +16,15 @@ using VRage.Game.ObjectBuilders.Definitions;
 
 #endregion
 // Change this namespace for each script you create.
-namespace SpaceEngineers.UWBlockPrograms.Template
+namespace SpaceEngineers.UWBlockPrograms.TunnelProject
 {
-    public sealed class Template : MyGridProgram
+    public sealed class TunnelProject : MyGridProgram // K miner
     {
         // ------- Code Below --------
 
         public void Program()
         {
-            //!--- Remember to remove 'void'. Its here just to avoid errors, but in SE the Program() constructor should not have a return type.
+            //!--- Remember to remove 'void'. Its here just to avoid errors, but in SE it the Program() method should not have a return type.
 
             // The constructor, called only once every session and
             // always before any other method is called. Use it to
